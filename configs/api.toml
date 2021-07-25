@@ -1,2 +1,6 @@
+[web-server]
 bind_addr = ":8084"
 logger_level = "debug"
+
+[storage]
+database_uri="host=localhost port=54300 user=godb password=godb dbname=godb sslmode=disable"
